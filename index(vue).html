@@ -2,13 +2,38 @@
 <html>
 <head>
     <meta charset="utf-8" />
-
+    <title>Task manager</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
 
+  <form method="post" action="index(vue).html/task">
+    <input name="login"/>
+    <input type="submit" value="Ввести" />
+</form>
+
+<script type="text/javascript">
+var task = {};
+message: task;
+</script>
+
+
+<div class="" >
+  <div id="vue" > 
+    {{}}
+
+  </div> 
+</div>
 
     <script type="text/javascript">
-      var Tasks = [];
+      var app = new Vue({
+        el: '#vue',
+        data:{
+          var: tasks = [],
+          
+        }
+      })
+      
 
 
 
